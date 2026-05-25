@@ -1,0 +1,38 @@
+# Android / Gradle
+mobile-app/.gradle/
+mobile-app/build/
+mobile-app/app/build/
+mobile-app/local.properties
+mobile-app/captures/
+mobile-app/.externalNativeBuild/
+mobile-app/.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Arduino
+arduino/**/*.elf
+arduino/**/*.hex
+arduino/**/build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+*.swp
+*~
+
+# Python (used only by tooling, not project source)
+__pycache__/
+*.pyc
